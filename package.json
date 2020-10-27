@@ -1,0 +1,11 @@
+{
+  "name": "JavaScript30",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:reginalin/JavaScript30.git",
+  "author": "Regina <reginalin714@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.1.2"
+  }
+}
