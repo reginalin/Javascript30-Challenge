@@ -6,7 +6,7 @@
 - Event listeners
 - CSS transitions
 - HTML "data" attributes, which are attributes you made up, like "data-{SOME-NAME}"
-- forEach loop - execute a function on each element in an array
+- `forEach` loop - execute a function on each element in an array
 
 ## Day 2
 
@@ -24,14 +24,11 @@
 ## Day 4
 
 - Array functions:
-  - filter
-    - applies a filter function to return new array of elements that fulfill some requirement
-  - map
-    - does some action on each element and returns a new array
-  - sort
-    - uses a sort function that compares two elements and returns -1, 1, or 0
+  - `filter:` applies a filter function to return new array of elements that fulfill some requirement
+  - `map:` does some action on each element and returns a new array
+  - `sort:` uses a sort function that compares two elements and returns -1, 1, or 0
     - sorts the array in place
-  - reduce - executes a reducer that takes in an accumulator an element, operating on element of the array, and returns a single value
+  - `reduce:` executes a reducer that takes in an accumulator an element, operating on element of the array, and returns a single value
 
 ## Day 5
 
@@ -45,3 +42,14 @@
   - handling promises and blobs to retrieve raw data
 - RegExp
 - Using innerHTML to insert string as HTML children of an element
+
+## Day 7
+
+- Array functions:
+  - `some`: returns boolean indicating whether _at least one_ element fulfills a requirement
+  - `every:` returns boolean indicating whether _all_ elements fulfills a requirement
+  - `find:` returns _first_ element that fulfills a requirement
+  - `findIndex:` returns _index_ of first element that fulfills a requirement
+  - `slice:` return copy of array elements between specified indices
+  - `splice`: remove/replace/insert elements in place
+- Combine slice with spread operator to create new array with removed element
