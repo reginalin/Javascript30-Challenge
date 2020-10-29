@@ -6,6 +6,7 @@
 - Event listeners
 - CSS transitions
 - HTML "data" attributes, which are attributes you made up, like "data-{SOME-NAME}"
+- forEach loop - execute a function on each element in an array
 
 ## Day 2
 
@@ -31,3 +32,16 @@
     - uses a sort function that compares two elements and returns -1, 1, or 0
     - sorts the array in place
   - reduce - executes a reducer that takes in an accumulator an element, operating on element of the array, and returns a single value
+
+## Day 5
+
+- Use an element's classlist to modify class attributes
+- flex
+
+## Day 6
+
+- Array.push and spread operator
+- Using fetch to grab data from an endpoint
+  - handling promises and blobs to retrieve raw data
+- RegExp
+- Using innerHTML to insert string as HTML children of an element
