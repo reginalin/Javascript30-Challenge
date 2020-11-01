@@ -75,3 +75,7 @@
   - `dir` for accessing DOM element info
   - `group` and `groupCollapsed` for grouping logged statements (useful when looping)
   - `count` logs number of times that it has been called (use case: inside event listeners)
+
+## Day 10
+
+- `click` event knows if CTRL/shift/meta keys were pressed
