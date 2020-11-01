@@ -3,7 +3,7 @@
 ## Day 1
 
 - How to select HTML elements
-- Event listeners
+- Event listeners - `transitionend`, `keydown`
 - CSS transitions
 - HTML "data" attributes, which are attributes you made up, like "data-{SOME-NAME}"
 - `forEach` loop - execute a function on each element in an array
@@ -15,6 +15,7 @@
   - `transform-origin`
   - `transition`
   - `transition-timing-function`
+- `setInterval`
 
 ## Day 3
 
@@ -53,3 +54,24 @@
   - `slice:` return copy of array elements between specified indices
   - `splice`: remove/replace/insert elements in place
 - Combine slice with spread operator to create new array with removed element
+
+## Day 8
+
+- HTML canvas element and canvas API for drawing graphics
+  - technically we draw on the context
+- New event listeners: `mousedown`, `mousemove`, `mouseup`, `mouseout`
+
+## Day 9
+
+- Dev tools - how to make use of console API for debugging
+- Console functions:
+  - `log` for logging variable values
+    - can also log styled text by using css string
+  - `warn` for outputting warning message
+  - `error` for outputting error message
+  - `info` (in firefox it shows the info icon)
+  - `assert` for writing a test
+  - `clear` to empty console
+  - `dir` for accessing DOM element info
+  - `group` and `groupCollapsed` for grouping logged statements (useful when looping)
+  - `count` logs number of times that it has been called (use case: inside event listeners)
