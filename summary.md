@@ -1,6 +1,6 @@
 # Summary of Things Learned
 
-## Day 1
+## Day 1: JS Drum kit
 
 - How to select HTML elements
 - Event listeners - `transitionend`, `keydown`
@@ -8,7 +8,7 @@
 - HTML "data" attributes, which are attributes you made up, like "data-{SOME-NAME}"
 - `forEach` loop - execute a function on each element in an array
 
-## Day 2
+## Day 2: CSS + JS Clock
 
 - Setting CSS styles on elements
 - CSS properties:
@@ -17,12 +17,12 @@
   - `transition-timing-function`
 - `setInterval`
 
-## Day 3
+## Day 3: Playing with CSS Variables and JS
 
 - CSS variables (use root element)
 - cool HTML input types for range (slider) and color (picker)
 
-## Day 4
+## Day 4: Array Cardio Day 1
 
 - Array functions:
   - `filter:` applies a filter function to return new array of elements that fulfill some requirement
@@ -31,12 +31,12 @@
     - sorts the array in place
   - `reduce:` executes a reducer that takes in an accumulator an element, operating on element of the array, and returns a single value
 
-## Day 5
+## Day 5: Flex Panels Image Gallery
 
 - Use an element's classlist to modify class attributes
 - flex
 
-## Day 6
+## Day 6: Type Ahead
 
 - Array.push and spread operator
 - Using fetch to grab data from an endpoint
@@ -44,7 +44,7 @@
 - RegExp
 - Using innerHTML to insert string as HTML children of an element
 
-## Day 7
+## Day 7: Array Cardio Day 2
 
 - Array functions:
   - `some`: returns boolean indicating whether _at least one_ element fulfills a requirement
@@ -55,13 +55,13 @@
   - `splice`: remove/replace/insert elements in place
 - Combine slice with spread operator to create new array with removed element
 
-## Day 8
+## Day 8: Fun with HTML5 Canvas
 
 - HTML canvas element and canvas API for drawing graphics
   - technically we draw on the context
 - New event listeners: `mousedown`, `mousemove`, `mouseup`, `mouseout`
 
-## Day 9
+## Day 9: Must Know Dev Tools Tricks
 
 - Dev tools - how to make use of console API for debugging
 - Console functions:
@@ -76,11 +76,15 @@
   - `group` and `groupCollapsed` for grouping logged statements (useful when looping)
   - `count` logs number of times that it has been called (use case: inside event listeners)
 
-## Day 10
+## Day 10: Hold Shift to Select Multiple Checkboxes
 
 - `click` event knows if CTRL/shift/meta keys were pressed
 
-## Day 11
+## Day 11: Custom HTML5 Video Player
 
 - video player built using HTML video element
 - fullscreen API and cross browser requirements
+
+## Day 12: Key Sequence Detection
+
+- `splice` to remove elements from array
