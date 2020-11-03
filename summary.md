@@ -79,3 +79,8 @@
 ## Day 10
 
 - `click` event knows if CTRL/shift/meta keys were pressed
+
+## Day 11
+
+- video player built using HTML video element
+- fullscreen API and cross browser requirements
