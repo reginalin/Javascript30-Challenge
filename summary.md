@@ -88,3 +88,8 @@
 ## Day 12: Key Sequence Detection
 
 - `splice` to remove elements from array
+
+## Day 13: Slide in on Scroll 
+
+- **debounce** function to handle tons of events being fired on scroll
+- calculate element and window height
