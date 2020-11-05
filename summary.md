@@ -93,3 +93,16 @@
 
 - **debounce** function to handle tons of events being fired on scroll
 - calculate element and window height
+
+## Day 14: Javascript Reference vs. Copying
+
+- **primitive types** (string, number, boolean, null, undefined) vs. **object types** (object, function, array, set)
+- various ways of copying an array:
+  - slice
+  - Array.from
+  - concat onto empty
+  - spread operator
+- various ways of copying objects
+  - spread
+  - Object.assign
+    - this does not clone deeply - nested objects will have references copied
