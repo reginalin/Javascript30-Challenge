@@ -106,3 +106,7 @@
   - spread
   - Object.assign
     - this does not clone deeply - nested objects will have references copied
+
+## Day 15: Local Storage and Event Delegation
+
+- event delegation - "responsible parents and negligent children that don't hear instructions. We tell the parents when an event happens ST parent can tell children (current and future) what to do"
