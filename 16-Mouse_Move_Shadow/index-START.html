@@ -35,6 +35,36 @@
   </style>
 
 <script>
+  const hero = document.querySelector('.hero')
+  const text = hero.querySelector('h1')
+  const walk = 100
+
+  function shadow(e) {
+    // get dimensions of hero element
+    // without destructuring
+    //const width = hero.offsetWidth
+    //const height = hero.offsetHeight
+
+    const { offsetWidth: width, offsetHeight: height } = hero
+
+    // get cursor position
+    let { offsetX: x, offsetY: y } = e
+
+    // hero (this) listens to event but target might be the child (h1)
+    // we ensure that we calculate relative to the hero
+    if (this !== e.target) {
+      x = x + e.target.offsetLeft
+      y = y + e.target.offsetTop
+    }
+
+    // calculate x, y offsets of the shadow
+    const xWalk = Math.round((x / width * walk) - (walk / 2))
+    const yWalk = Math.round((y / height * walk) - (walk / 2))
+
+    text.style.textShadow = `${xWalk}px ${yWalk}px 0 red`
+  }
+
+  hero.addEventListener('mousemove', shadow)
 </script>
 </body>
 </html>

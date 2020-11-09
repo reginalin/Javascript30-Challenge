@@ -110,3 +110,8 @@
 ## Day 15: Local Storage and Event Delegation
 
 - event delegation - "responsible parents and negligent children that don't hear instructions. We tell the parents when an event happens ST parent can tell children (current and future) what to do"
+
+## Day 16: CSS Text Shadow Mouse Move Effect
+
+- the following may differ:
+  - current target of an event (`e.currentTarget` or `this` within an event listener) vs. originating target (`e.target`)
