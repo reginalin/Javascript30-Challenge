@@ -115,3 +115,8 @@
 
 - the following may differ:
   - current target of an event (`e.currentTarget` or `this` within an event listener) vs. originating target (`e.target`)
+
+## Day 17: Sorting Without Articles
+
+- using regex to parse strings
+- custom sort
