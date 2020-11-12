@@ -120,3 +120,7 @@
 
 - using regex to parse strings
 - custom sort
+
+## Day 18: Adding Up Times With Reduce
+
+- finding ways to use map and reduce together
