@@ -124,3 +124,12 @@
 ## Day 18: Adding Up Times With Reduce
 
 - finding ways to use map and reduce together
+
+## Day 19: Webcam Fun
+
+- media streams API
+- full process of creating and downloading an image:
+  - connecting to web cam use media streams API
+  - writing to canvas from video elemetn
+  - retrieving image from canvas (setting url, creating download link)
+- image filters using pixels from canvas context
