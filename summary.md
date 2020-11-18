@@ -133,3 +133,7 @@
   - writing to canvas from video elemetn
   - retrieving image from canvas (setting url, creating download link)
 - image filters using pixels from canvas context
+
+## Day 20: Speech Detection
+
+- web speech API
